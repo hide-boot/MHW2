@@ -1,0 +1,226 @@
+.nav{
+  height:4vh;
+  width:100vw;
+  display:flex;
+  justify-content:start;
+  align-items:center;
+}
+nav{
+  margin:0;
+  height:4vh;
+ width:98vw;
+  background-color:rgba(0,139,139, .6);
+  position:fixed;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:1px;
+  z-index:1;
+}
+nav a{
+  font-family: 'Oswald', sans-serif;
+color:darkcyan;
+  border:1px solid rgb(81, 83, 83);
+  padding-left:8vw; 
+  padding-right:8vw;
+  background-color: white;
+  padding-top:3px;
+ 
+}
+a{
+  text-decoration: none;
+color:blue;
+font-weight: bolder;
+font-style:italic;
+}
+header{
+ 
+  height:60vh;
+  background-color:grey;
+  background-image:url(https://www.laboratoriodellafarmacia.it/build/images/farmacie/cover.45b3654d.jpg);
+  background-size:cover;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:relative;
+ 
+  z-index:-1;
+}
+.title{
+  font-size:60px;
+z-index:1;
+  color:black;
+  
+}
+.overlay{
+  position:absolute;
+top:0px;
+
+  background-color: rgba(0, 0, 0, 0.3);
+left:0px;
+z-index:-1;
+height:100%;
+width:100%;
+
+
+}
+
+section{
+  
+  width:100vw;
+  height:200vh;
+  position:relative;
+ }
+
+.search{
+  margin:30px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.lente{
+  height:15px;
+  width:15px;
+  margin-left:3px;
+}
+.preferiti{
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  height:30vh;
+
+  display:flex;
+  justify-content:start;
+  text-align: center;
+}
+.carrello{
+margin-top:30px;
+margin-bottom: 0;
+}
+.titolo{
+  margin:0;
+}
+.main{
+  height:170vh;
+
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+}
+.mainblock{
+  height:130vh;
+  width:65vw;
+  display:flex;
+  justify-content:space-around;
+  align-items:start;
+ 
+  flex-wrap: wrap;
+  
+  
+}
+.block{
+  border: 2px solid black;
+  padding:0;
+  height:30vh;
+  width:13vw;
+  background-color:white;
+  margin:5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  
+ 
+}
+
+
+.mainimg{
+  margin:0;
+  border:1px solid black;
+  padding:0;
+  height:40%;
+  width:80%;
+}
+.classcar{
+  margin:0;
+  height:30px;
+  width: 40px;
+  
+}
+.testo{
+  font-size:13px;
+  margin:0;
+}
+.dettagli{
+  margin:0;
+  font-style: italic;
+  color:gray;
+  font-size:15px;
+}
+.description{
+  font-size:11px;
+  margin:0;
+}
+.hidden{
+  display:none;
+}
+.standard{
+  width: 12%;
+  height: 95%;
+}
+.vendita{
+  height:15%;
+  margin:0;
+}
+.selezionato{
+  background-color: rgba(30, 15, 85, 0.3);
+  height:35%;
+  width:25%;
+  font-size: 20px;
+}
+footer{
+  height:17vh;
+  width:100vw;
+  background-color: rgba(0, 0,0, .7);
+  position:relative;
+color:white;
+display:flex;
+
+
+}
+.autore{
+  margin-left: 20vw;
+}
+
+
+.height{
+ 
+height:70vh;
+
+ }
+
+@media(max-width:550px){
+  section{
+    height:300vh;
+  }
+  .mainblock{
+    height: 180vh;
+    width: 85vw;
+  
+
+  }
+  .main{
+    height:220vh;
+    
+  }
+  .block, .block p{
+    font-size:10px;
+  }
+  footer{
+    height:25vh;
+    display:block;
+    }
+    .autore{
+      display:block;
+      margin-left:0;
+    }
+ 
+}
