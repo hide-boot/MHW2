@@ -1,3 +1,4 @@
+//Bonadonna Stefano O46002083
 const image=[
     'https://www.farmacosmo.it/13741-large_default/tachipirina-adulti-1000-mg-analgesico-antipiretico-10-supposte-046384.jpg',
     'https://www.interris.it/wp-content/uploads/2020/02/img800-l-allarme-globale-gli-antibiotici-perdono-efficacia-147806-1280x720.jpg',
