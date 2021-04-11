@@ -1,4 +1,4 @@
-//prezzo,img1,img2,title,title_two
+//O46002083 Bonadonna Stefano
 
 const preferito=document.querySelector('.preferiti');
 const mainblock=document.querySelector('.mainblock');
